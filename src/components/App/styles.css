@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina+2|Quattrocento&display=swap');
+
+:root {
+    --title-font: 'Baloo Bhaina 2', cursive;
+    --title-color: #eb5160;
+    --background: #4e4187;
+    --light-background: #f4f2f3;
+    --text-quote: 'Quattrocento', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+}
+
+.App {
+    text-align: center; 
+}
+
+.logo {
+    animation: App-logo-spin infinite 6s linear alternate;
+    height: 100px;
+    padding-top: 40px;
+    border-radius: 50%;
+}
+
+.App-header {
+    background-color: var(--light-background);
+    height: 200px;
+    font-family: var(--title-font);
+    padding: 20px;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    height: 250px;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 20px;
+    width: 500px;
+    color: var(--background);
+    text-align: center;
+    font-family: var(--title-font);
+    background: var(--light-background);
+    font-style: italic;
+    text-align: center
+}
+
+button {
+    border: none;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: var(--background);
+    color: var(--light-background);
+    text-transform: uppercase;
+    outline: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: white;
+    color: var(--background);
+    outline: none;
+}
+
+@keyframes App-logo-spin {
+    0% {
+      -ms-transform:rotate(0deg);
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+      transform: rotate(0deg);
+    }
+    50% {
+      background: lighten($color: #2794ca, $amount: 20%);
+      -ms-transform:rotate(180deg);
+      -webkit-transform:rotate(180deg);
+      -moz-transform:rotate(180deg);
+      -o-transform:rotate(180deg);
+      transform: rotate(180deg);
+    }
+    100% {
+      -ms-transform:rotate(360deg);
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
