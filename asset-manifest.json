@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/random-trump-quotes/static/css/main.a7d1843d.chunk.css",
+    "main.js": "/random-trump-quotes/static/js/main.e08cfa87.chunk.js",
+    "main.js.map": "/random-trump-quotes/static/js/main.e08cfa87.chunk.js.map",
+    "runtime-main.js": "/random-trump-quotes/static/js/runtime-main.4ec88cf2.js",
+    "runtime-main.js.map": "/random-trump-quotes/static/js/runtime-main.4ec88cf2.js.map",
+    "static/js/2.42042694.chunk.js": "/random-trump-quotes/static/js/2.42042694.chunk.js",
+    "static/js/2.42042694.chunk.js.map": "/random-trump-quotes/static/js/2.42042694.chunk.js.map",
+    "index.html": "/random-trump-quotes/index.html",
+    "precache-manifest.495933aa025ed55c47e869e8987cc959.js": "/random-trump-quotes/precache-manifest.495933aa025ed55c47e869e8987cc959.js",
+    "service-worker.js": "/random-trump-quotes/service-worker.js",
+    "static/css/main.a7d1843d.chunk.css.map": "/random-trump-quotes/static/css/main.a7d1843d.chunk.css.map",
+    "static/js/2.42042694.chunk.js.LICENSE.txt": "/random-trump-quotes/static/js/2.42042694.chunk.js.LICENSE.txt",
+    "static/media/trump.png": "/random-trump-quotes/static/media/trump.ce57c538.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ec88cf2.js",
+    "static/js/2.42042694.chunk.js",
+    "static/css/main.a7d1843d.chunk.css",
+    "static/js/main.e08cfa87.chunk.js"
+  ]
+}
